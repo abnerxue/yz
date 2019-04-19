@@ -4,14 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <script>
+        alert("源栈你好!");
+        //利用JavaScript计算出：[(23+7)x12-8]÷6的值
+        var sum;
+        sum = ((23 + 7) * 12 - 8) / 6;
+        alert(sum);
+        //利用循环，计算出1+3+5+7+...+99=?
+        var sum = 0;
+        for (i = 1; i < 100; i = i + 2) {
+            sum +=i
+        };
+        alert(sum);
 
-    
+    </script>
+
 </head>
 <body>
-   <script >
-       alert("源栈你好!")
-
-   </script>
+   
     @RenderBody()
 </body>
 </html>
