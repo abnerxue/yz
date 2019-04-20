@@ -9,14 +9,37 @@
         //利用JavaScript计算出：[(23+7)x12-8]÷6的值
         var sum;
         sum = ((23 + 7) * 12 - 8) / 6;
-        alert(sum);
+        console.log(sum);
         //利用循环，计算出1+3+5+7+...+99=?
-        var sum = 0;
+         var sum = 0;
         for (i = 1; i < 100; i = i + 2) {
             sum +=i
         };
-        alert(sum);
+         console.log(sum);
+        //使用JavaScript内置字符串函数，将 “‘源栈’：飞哥小班教学，线下免费收看” 变成：“大神"小"班教学，线上免费收看”。
+        var yz = "'源栈':飞哥小班教学，线下免费看’";
+        var kh = '"大神""小"班教学,线上免费看';
+         console.log(yz);
+         console.log(kh);
+        //将数组['why','gIT','vs2019','community','VERSION']规范化，所有字符串：
+          //首字母大写开头，其他字母小写
+         //截去超过6个字符的部分，如'community'将变成'Commun'
+        var arr = ['why', 'gIT', 'vs2019', 'community', 'VERSION']
+        arr[0] = ['Why'];
+        arr[1] = ['Git'];
+        arr[2] = ['Vs2019'];
+        arr[3] = ['Commun'];
+        arr[4] = ['Versio'];
+        console.log(arr);
+        //将源栈同学姓名/昵称装入数组，再根据该数组输出共有多少同学
+        var arr = ['wf', 'mx', 'lw', 'xl', 'lz', 'lc', 'zx', 'mh', 'cl']
+        for (i = 0; i < arr.length; i++) {
+            var students = i + 1;
+         
+        };
+         console.log(students);
 
+        //在上述数组头部加上小雨老师，末尾加上大飞哥
     </script>
 
 </head>
