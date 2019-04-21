@@ -71,6 +71,7 @@
         //建立一个函数getMaxNumber()，可以接受任意多各种类型（整数、小数、正数、负数、字符串、布尔值等）的参数，并找出里面最大的数（忽略其他类型）
         function getMaxNumber(n) {
             var data = [n]
+            var maxData = minData= data[0];
             for (var i = 0; i < data.length; i++) {
              if (data[i]>maxData) {
                 maxData = data[i];  // 最大值
