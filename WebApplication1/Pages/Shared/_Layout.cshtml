@@ -69,8 +69,16 @@
         };
         }
         //建立一个函数getMaxNumber()，可以接受任意多各种类型（整数、小数、正数、负数、字符串、布尔值等）的参数，并找出里面最大的数（忽略其他类型）
-        function getMaxNumber() {
-
+        function getMaxNumber(n) {
+            var data = [n]
+            for (var i = 0; i < data.length; i++) {
+             if (data[i]>maxData) {
+                maxData = data[i];  // 最大值
+                };
+                 if (data[i]<minData) {
+              minData = data[i];  // 最小值
+                }
+                    
         };
         //删除一个数组里面重复的元素
         var students = ['wf', 'mx', 'lw','zx', 'mh', 'cl', 'xl', 'lz', 'lc', 'zx', 'mh', 'cl'];
