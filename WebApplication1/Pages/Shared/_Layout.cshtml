@@ -71,7 +71,22 @@
         //建立一个函数getMaxNumber()，可以接受任意多各种类型（整数、小数、正数、负数、字符串、布尔值等）的参数，并找出里面最大的数（忽略其他类型）
         function getMaxNumber() {
 
+        };
+        //删除一个数组里面重复的元素
+        var students = ['wf', 'mx', 'lw','zx', 'mh', 'cl' 'xl', 'lz', 'lc', 'zx', 'mh', 'cl'];
+    function unique(arr){
+        // 遍历arr，把元素分别放入tmp数组(不存在才放)
+        var tmp = new Array();
+        for(var i in arr){
+            //该元素在tmp内部不存在才允许追加
+            if(tmp.indexOf(arr[i])==-1){
+                tmp.push(arr[i]);
+            }
         }
+        return tmp;
+    }
+    var arr = unique(color);
+    console.log(arr);
     </script>
 
 </head>
